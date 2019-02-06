@@ -1,9 +1,5 @@
 # 서빙 바이오  : 바이오 분석 모델을  서비스로 구현해보자
 
-<img src="https://github.com/biospin/serving_bio/blob/master/main03.jpg"  width="600"  height="300"/>
-
-<img src="https://github.com/biospin/serving_bio/blob/master/main04.jpg"  width="600"  height="300"/>
-
 <img src="https://github.com/biospin/serving_bio/blob/master/main05.jpg"  width="600"  height="300"/>
 
 ## 스터디 정보
