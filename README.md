@@ -1,6 +1,11 @@
 # 서빙 바이오  : 바이오 분석 모델을  서비스로 구현해보자
 
-<img src="https://github.com/biospin/visual_bio/blob/master/main02.jpg"  width="600"  height="300"/>
+<img src="https://github.com/biospin/serving_bio/blob/master/main.jpg"  width="600"  height="300"/>
+
+<img src="https://github.com/biospin/serving_bio/blob/master/main02.jpg"  width="600"  height="300"/>
+
+<img src="https://github.com/biospin/serving_bio/blob/master/main03.jpg"  width="600"  height="300"/>
+
 
 
 ## 스터디 정보
@@ -145,7 +150,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |  3 |2019.05.24|(인공지능기초) holoviews  User Guide  : Plotting with Matplotlib, Working with Plot and Renderers,
 |    |          |                  Exporting and Archiving, Continuous Coordinates,Notebook Magics
 |    |          |(분석모델서빙) flask : Patterns for Flask
-|    |          |(의료영상) 파이썬과 OpenCV : 8장. 
+|    |          |(의료영상) 파이썬과 OpenCV : 8장. 이미지 및 동영상 처리 
 |  4 |2019.05.31|(분석모델서빙) Mastering kubernetes  : 8장. 상태저장 쿠버네티스 애플리케이션 실행
 |    |          |(의료영상) 파이썬과 OpenCV : 9장. 다중 뷰 기하학 
 |    |          |(의료영상) SimpleITK  :   65_Registration_FFD.ipynb, 66_Registration_Demons.ipynb,       
