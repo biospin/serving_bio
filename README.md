@@ -19,24 +19,25 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 ## 교재 정보
 1. 인공지능 기초 
   - R for Data Science
-    https://r4ds.had.co.nz/  영문
-    http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966262359&orderClick=LAH&Kc=  한글번역서
+    - https://r4ds.had.co.nz/  영문
+    - http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966262359&orderClick=LAH&Kc=  한글번역서
  - 동적 시각화 
-    holoviews : http://holoviews.org/
+    - holoviews : http://holoviews.org/
     
 2. 분석모델을 서비스하는 방법
-  - flask : http://flask.pocoo.org/docs/1.0/
-            https://flask-docs-kr.readthedocs.io/ko/latest/
+  - flask
+      - http://flask.pocoo.org/docs/1.0/
+      - https://flask-docs-kr.readthedocs.io/ko/latest/
   - 컨테이너 기반 플랫폼 관리 : Mastering kubernetes
-    http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161751351&orderClick=LAH&Kc=  ( 한글번역서  )
-    PDFhttps://the-eye.eu/public/Books/qt.vidyagam.es/library/humble-cloud-computing-bundle/Mastering%20Kubernetes/Mastering%20Kubernetes%20-%20Gigi%20Sayfan.pdf  ( 영문 PDF )
+      - http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161751351&orderClick=LAH&Kc=  ( 한글번역서  )
+      - https://the-eye.eu/public/Books/qt.vidyagam.es/library/humble-cloud-computing-bundle/Mastering%20Kubernetes/Mastering%20Kubernetes%20-%20Gigi%20Sayfan.pdf  ( 영문 PDF )
 
 3. 의료 영상
   - 파이썬과 OpenCV를 이용한 컴퓨터 비전 학습 (  영문 PDF 있음 )
-    http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161752396&orderClick=LAG&Kc=
+    - http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791161752396&orderClick=LAG&Kc=
   - 대시보드 :   https://dash.plot.ly/
   - SimpleITK 
-    https://github.com/InsightSoftwareConsortium/SimpleITK-Notebooks
+    - https://github.com/InsightSoftwareConsortium/SimpleITK-Notebooks
 
 4. 참고자료
   - flask 참고자료 :  https://doc.lagout.org/programmation/python/Flask%20Web%20Development_%20Developing%20Web%20Applications%20with%20Python%20%5BGrinberg%202014-05-18%5D.pdf
