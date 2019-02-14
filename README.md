@@ -72,7 +72,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |----| ---------|----------------------------------------------
 |  1 |2019.02.15|(인공지능기초) R for Data Science : 1장 ~ 3장
 |    |          |(분석모델서빙)  flask  : Installation,  Quickstart
-|    |          |(의료영상) 파이썬과 OpenCV : 1장. 입출력과 GUI 
+|    |          |(의료영상) [파이썬과 OpenCV : 1장. 입출력과 GUI](https://github.com/biospin/serving_bio/blob/master/part01/%ED%8C%8C%EC%9D%B4%EC%85%98%EA%B3%BCOpenCV_01%EC%9E%A5_%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BCGUI.ipynb) 
 |  2 |2019.02.22|(인공지능기초) R for Data Science : 4장 ~ 6장
 |    |          |(분석모델서빙) Mastering kubernetes  : 1장. 쿠버네티스 구조 이해
 |    |          |(의료영상) Dash Tutorial : Part 1. Installation ~ Part 5. Interactive Graphing and Crossfiltering
