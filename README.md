@@ -46,7 +46,8 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
   
   
 ## 차후 스터디 
- - 스터디원의 의견을 받아서 정리
+ - [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
+ - https://www.edwith.org/deeplearningai2 
  
  ## 장소
 1. 장소: 신촌 세브란스 연세 암병원 이승호 회의실 B2층 ( http://goo.gl/sCgerx )  또는  
