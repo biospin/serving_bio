@@ -76,7 +76,8 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |(의료영상) [파이썬과 OpenCV : 1장. 입출력과 GUI](https://github.com/biospin/serving_bio/blob/master/part01/%ED%8C%8C%EC%9D%B4%EC%85%98%EA%B3%BCOpenCV_01%EC%9E%A5_%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BCGUI.ipynb) 
 |  2 |2019.02.22|(인공지능기초) R for Data Science : 4장 ~ 6장
 |    |          |(분석모델서빙) Mastering kubernetes  : 1장. 쿠버네티스 구조 이해
-|    |          |(의료영상) Dash Tutorial : Part 1. Installation ~ Part 5. Interactive Graphing and Crossfiltering
+|    |          |(의료영상) Dash Tutorial : [Part 1. Installation ~ Part 3.](https://github.com/biospin/serving_bio/blob/master/part01/week2_190222/DashTutorial_1%EC%9E%A5_3%EC%9E%A5.ipynb)
+|    |          |(의료영상) Dash Tutorial : [Part 4. Installation ~ Part 5.](https://github.com/biospin/serving_bio/blob/master/part01/week2_190222/DashTutorial_4%EC%9E%A5_5%EC%9E%A5.ipynb)
 |  3 |2019.03.08|(인공지능기초) R for Data Science : 7장 ~ 9장  
 |    |          |(분석모델서빙) flask  : Tutorial,  Templates
 |    |          |(의료영상) 파이썬과 OpenCV : 2장. 행렬, 색상, 필터
