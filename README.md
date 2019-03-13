@@ -78,7 +78,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |(분석모델서빙) Mastering kubernetes  : 1장. 쿠버네티스 구조 이해
 |    |          |(의료영상) Dash Tutorial : [Part 1. Installation ~ Part 3.](https://github.com/biospin/serving_bio/blob/master/part01/week2_190222/DashTutorial_1%EC%9E%A5_3%EC%9E%A5.ipynb)
 |    |          |(의료영상) Dash Tutorial : [Part 4. Installation ~ Part 5.](https://github.com/biospin/serving_bio/blob/master/part01/week2_190222/DashTutorial_4%EC%9E%A5_5%EC%9E%A5.ipynb)
-|  3 |2019.03.08|(인공지능기초) R for Data Science : 7장 ~ 9장  
+|  3 |2019.03.08|[(인공지능기초) R for Data Science : 7장 ~ 9장](https://github.com/biospin/serving_bio/blob/master/part01/week3_190308/chap79.r)  
 |    |          |(분석모델서빙) flask  : Tutorial,  Templates
 |    |          |(의료영상) 파이썬과 OpenCV : 2장. 행렬, 색상, 필터
 |  4 |2019.03.15|(인공지능기초) R for Data Science : 10장 ~ 12장
