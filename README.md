@@ -82,7 +82,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |(분석모델서빙) flask  : Tutorial,  Templates
 |    |          |(의료영상) 파이썬과 OpenCV : 2장. 행렬, 색상, 필터
 |  4 |2019.03.15|(인공지능기초) R for Data Science : 10장 ~ 12장
-|    |          |(분석모델서빙) Mastering kubernetes  : 2장. 쿠버네티스 클러스터 생성 
+|    |          |(분석모델서빙) [Mastering kubernetes  : 2장. 쿠버네티스 클러스터 생성](https://github.com/biospin/serving_bio/blob/master/part01/week4_190315/OpenShift_Origin%EC%84%A4%EC%B9%98.pdf) 
 |    |          |(의료영상) Dash Tutorial :  [Part 6. Sharing Data Between Callbacks, Dash Component Libraries 모두](https://github.com/biospin/serving_bio/blob/master/part01/week4_190315/DashTutorial_6%EC%9E%A5_7%EC%9E%A5.ipynb)  
 
 
