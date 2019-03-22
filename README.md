@@ -89,7 +89,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 ### Part 2.
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
-|  1 |2019.03.15|(인공지능기초) R for Data Science : 13장 ~ 15장   
+|  1 |2019.03.15|(인공지능기초) [R for Data Science : 13장](https://github.com/biospin/serving_bio/blob/master/part02/week1_190322/RforDataScience_chapter13.pdf), [R for Data Science : 14장](https://github.com/biospin/serving_bio/blob/master/part02/week1_190322/RforDataScience_chapter14.pdf)    
 |    |          |(분석모델서빙) flask  : Testing Flask Applications,  Application Errors, Debugging Application Errors
 |    |          |(의료영상)파이썬과 OpenCV : 3장. 윤곽선과 분할 
 |  2 |2019.03.22|(인공지능기초) R for Data Science : 16장 ~ 18장
