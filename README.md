@@ -93,7 +93,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |(분석모델서빙) flask  : Testing Flask Applications,  Application Errors, Debugging Application Errors
 |    |          |(의료영상)파이썬과 OpenCV : 3장. 윤곽선과 분할 
 |  2 |2019.03.22|(인공지능기초) R for Data Science : 16장 ~ 18장
-|    |          |(분석모델서빙) Mastering kubernetes  : 3장. 모니터링, 로깅, 문제 해결 
+|    |          |(분석모델서빙) [Mastering kubernetes  : 3장. 모니터링, 로깅, 문제 해결](https://github.com/biospin/serving_bio/blob/master/part02/week2_190329/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4_3%EC%9E%A5%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.pdf) 
 |    |          |(의료영상) SimpleITK  :  00_Setup.ipynb, 01_Image_Basics.ipynb, 02_Pythonic_Image.ipynb,
 |    |          |                      03_Image_Details.ipynb, 04_Image_Display.ipynb   
 |  3 |2019.03.29|(인공지능기초) R for Data Science : 19장 ~ 21장
