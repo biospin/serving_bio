@@ -100,7 +100,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |(분석모델서빙) flask  : Logging, Configuration Handling, Signals
 |    |          |(의료영상) 파이썬과 OpenCV : 4장. 객체 검출과 머신 러닝 
 |  4 |2019.04.05|(인공지능기초) R for Data Science : 22장 ~ 24장  
-|    |          |(분석모델서빙) Mastering kubernetes  : 4장. 고가용성과 신뢰성 
+|    |          |(분석모델서빙) [Mastering kubernetes  : 4장. 고가용성과 신뢰성](https://github.com/biospin/serving_bio/blob/master/part02/week4_190412/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4_4%EC%9E%A5%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1.pdf) 
 |    |          |(의료영상) SimpleITK  :  10_matplotlib's_imshow.ipynb, 20_Expand_With_Interpolators.ipynb ,
 |    |          |                      21_Transforms_and_Resampling.ipynb  , 22_Transforms.ipynb
 
