@@ -109,7 +109,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |seq.|    날짜        |     내용                                                                                      
 |----| ---------|----------------------------------------------
 |  1 |2019.04.12|(인공지능기초) holoviews  Getting Started 모두 
-|    |          |(분석모델서빙) flask  : Pluggable Views, The Application Context, The Request Context
+|    |          |(분석모델서빙) [flask  : Pluggable Views, The Application Context, The Request Context](https://github.com/biospin/serving_bio/blob/master/part03/week01_190419/flask.txt)
 |    |          |(의료영상) 파이썬과 OpenCV : 5장. 딥러닝
 |  2 |2019.04.19|(인공지능기초) holoviews  User Guide  : Annotating your Data , Composing Elements,
 |    |          |                                    Applying Customizations, Styling Mapping
