@@ -1,0 +1,322 @@
+플라스크는 이 책에서 중점적으로 살펴볼 파이썬 기반의 마이크로 프레임워크다. 이 책에서 다루게 될
+다양한 플라스크 애플리케이션 예제들을 자세히 살펴보기 전에 간단하게 플라스크에 대해서 알아보자.
+플라스크의 공식 홈페이지는 http://flask.pocoo.org/다.
+
+이 홈페이지에서 플라스크의 공식 가이드 문서와 코드 스니펫(snippet) 등을 확인할 수 있으며,
+플라스크의 확장 (extension) 기능 패키지를 살펴보고 내려받을 수 있다.
+
+플라스크 역시 루비의 시나트라의 영향을 받아 만들어진 마이크로 웹 프레임워크다. 플라스크에서는
+마이크로의 뜻을 다음과 같이 정의하고 있다.
+
+"마이크로는 여러분의 웹 애플리케이션이 하나의 파이썬 파일로 개발해야 한다는 걸 말하는 게 아니며,
+기능적으로 부족하다는 걸 의미하지도 않는다."
+
+플라크에서 이야기하는 마이크로 프레임워크의 "마이크로"는 핵심기능만 간결하게 유지하면서,
+필요한 기능을 손쉽게 확장할 수 있게 하는 것을 목적으로 한다.
+
+플라스크에 대해 좀 더 살펴보자.
+
+플라스크는 다양한 파이썬 도구를 오픈소스로 만들어 파이썬 커뮤니티에 많은 아민 로나처(Armin Ronacher)가
+개발했다.
+
+플라스크는 2010년 4월 1일, 만우절에 최초 릴리즈 되었으며 2013년 9월 현재 0.10 버전이 최신 안정화
+(2019년 현재  Latest Version: 1.0.2 ) 버전으로 깃허브(https://github.com/mistsuhiko/flask)
+에서 소스 코드를 내려받을 수 있다.
+
+플라스크는 현재 파이썬 2.x 버전에서 작동하지만, 추후 파이썬 3.x에서 작동할 수 있게
+저 수준 API의 변경을 검토하고 있다.
+
+이러한 문제가 해결되면 공식적으로 파이썬 3.x를 지원할 예정이며, 많은 부분 진행 되었다
+(https://github.com/apiguy/flask-classy/issues/33 참고).
+
+- 개발자 : 아민 로나처(Amin Ronacher)
+- 최초 릴리즈 : 2010.04.01
+- 최신 안정화 버전 ; v0.10
+- 운영체제 : 파이썬이 작동하는 모든 운영체제에서 가능
+- 오픈소스 라이선스 : BSD
+- 웹 사이트 : http://flask.pocoo.org/
+- 깃허브 주소 : https://github.com/mitsuhiko/flask
+
+플라스크를 사용하고 있는 대표적인 웹사이트
+
+- Disqus(http://disqus.com/)
+- Have they emailed me? (http://emailed-me.appspot.com/)
+- 960 Layout System (http://960ls.atomidata.com/)
+
+그 밖에 플라스크를 사용하고 있는 웹사이트에 대한 더 많은 정보를 얻고 싶다면 플라스크의
+공식 웹사이트에서 손쉽게 확인할 수 있다.
+
+플라스크는 기본적으로 WSGI 구현체인 벡자이크(Werkzeug) 와 템플릿 엔진인 신사2(Jinja2)로
+구성됐다. WSGI(Web Server Gateway Interface)는 일종의 애플리케이션 컨테이너 역할을
+정의한 파이썬 표준(PEP-333)이며, HTTP로 요청을 받아 응답하는 애플리케이션에 대한 규격이다.
+
+플라스크는 앞서 설명한 보틀과 함께 대표적인 파이선 마이크로 프레임워크로 불리고 있으며,
+간단한 코어(core) 엔진을 제공하지만 쉽게 확장하여 사용할 수 있게 여러 가지 확장 기능을
+지원한다.
+
+플라스크는 복잡한 설정이 필요 없으며 직관적으로 웹 서비스를 개발할 수 있도록
+도와준다.
+
+플라스크가 지원하는 기능은 다음과 같다.
+
+- 개발용 서버와 디버거 내장
+- 단위테스트와 통합 지원
+- RESTful 요청 처리 
+- 신사2(jinja2) 템플릿 엔진 내장(JADE 등 다른 템플릿 엔진 사용 가능)
+- 안전한 쿠키(secure cookie) 지원
+- 100% WSGI 1.0 호환
+- 유니코드 기반
+- 광범위한 문서 제공
+- 구글 앱 엔진 호환
+- 원하는 기능을 추가하여 확장 가능
+
+플라스크의 동작 방식을 살펴보고 이해하기 위해서 'Hello World!"를 만들어 보는 것 역시 좋은
+방법이다. 플라스크에서 'Hello World'는 다음과 같이 만들 수 있다.
+
+gildangsu@gildangsu-All-Series:~/flask/ch01$ cat hello.py 
+# -*- coding: utf-8 -*-
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+
+	return "<h1>Hello World!</h>"
+
+if __name__ == "__main__":
+	app.run()
+gildangsu@gildangsu-All-Series:~/flask/ch01$ 
+
+Hello World를 작성하는데 위의 일곱 줄이면 충분하다!
+
+- Flask 모듈을 임포트한다.
+- Flask 객체를 app에 할당한다.
+- app 객체를 이용해 라우팅 경로를 설정한다.
+- 해당 라우팅 경로를 요청이 올 때 실행할 함수를 작성한다.
+- 메인 모듈로 실행될 때 실행할 함수를 작성한다.
+- 메인 모듈로 실행될 때 플라스크 서버를 구동한다.
+
+플라스크 애플리케이션을 만들고 실행하는 방법은 어떤 애플리케이션을 사용하는 방법보다
+간단하다. 먼저, 일반적인 플라스크 애플리케이션이 어떤 과정으로 호출되는지 살펴보면서 개발을
+시작해 보자.
+
+플라스크 애플리케이션은 특정 URL이 호출되면서 실행된다. 특정 URL이 호출되면 그 URL에 매핑된
+함수가 실행된다.
+
+그리고 요청한 URL이나 (HTTP GET), 내용(HTTP POST)을 분석해서 비즈니스 로직을 실행한다.
+비즈니스 로직이 성공적으로 실행된 결과를 응답으로 전송한다. 마지막으로 응답으로 전송할 값을
+화면(보통 HTML)에 출력한다.
+
+상황에 따라 쿠키나 세션을 사용하거나 프로그램의 상태를 기록하기 위해 로깅을 하고 오류가 발생한
+경우에 처리할 로직을 별도로 제공할 수도 있다.
+
+플라스크가 아닌 다른 웹 애플리케이션 프레임워크의 경우, 위 과정에서 더 추가되는 과정이 있을 수 있지만
+위 과정은 대부분 다 포함하고 있을 것이다.
+
+기본적인 웹 기술이나 일만적인 웹 애플리케이션 개발에 대해 자세히 알고 싶다면 위키북스의 '프로가 되기 위한
+웹 입문 기술'이라는 기본서를 참고하면 많은 도움이 될 것이다.
+
+전체적으로 플라스크 애플리케이션의 어떤 흐름으로 호출되는지 살펴봤으므로, 이제 본격적으로
+플라스크 애플리케이션 소스코드를 분석해 보자. 다음은 'Hello Flask!'를 화면에 출력하는
+hello_flask.py의 소스 코드다.
+
+gildangsu@gildangsu-All-Series:~/flask/ch03$ cat hello_flask.py 
+# -*- coding: utf-8 -*-
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_flask():
+    return 'Hello Flask!'
+
+if __name__ == '__main__':
+    app.run()
+
+gildangsu@gildangsu-All-Series:~/flask/ch03$ 
+
+gildangsu@gildangsu-All-Series:~/flask/ch03$ export FLASK_APP=hello_flask.py 
+gildangsu@gildangsu-All-Series:~/flask/ch03$ flask run
+ * Serving Flask app "hello_flask.py"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Apr/2019 13:57:42] "GET / HTTP/1.1" 200 -
+^Cgildangsu@gildangsu-All-Series:~/flask/ch03$ 
+
+# -*- coding: utf-8 -*-
+
+위 선언은 가장 윗줄에 있는 표현으로 해당 파일의 인코딩을 선언한 것이다. 이 파일은 UTF-8로 인토딩을 지정했다.
+
+from flask import Flask
+app = Flask(__name__)
+
+플라스크 애플리케이션을 만들려면 Flask 객체를 생성해야 하므로 가장 먼저 flask 모듈에 있는 Flask
+클래스를 임포트한다.
+
+그 다음 플라스크 애플리케이션 모듈명을 Flask 클래스의 첫 번째 인자로 넘겨 주며 플라스크 애플리케이션
+객체인 app을 생성한다. 이 플라스크 객체로 모든 플라스크 기능을 사용할 수 있다.
+
+@app.route('/')
+def hello_flask():
+    return 'Hello Flask!'
+
+그 다음으로 특정 URL을 호출했을 때 호출되는 함수를 정의한다. 이와 같은 함수를 뷰(view) 함수라고 하며
+뷰 함수를 특정 URI와 일치시키기 위해 플라스크에서 밀 정의한 route() 데코레이터를 사용한다.
+
+여기서는 애플리케이션의 루트 경로(/)를 호출했을 때 hello_flask() 함수가 실행되게 위와 같이 정의한다.
+
+뷰 함수는 요청에 대한 응답으로 응답 객체를 생성해야 하는데 여기서는 'Hello Flask!'를
+전달하기 위해 리턴값으로 문자열을 넘겨준다.
+
+if __name__ == '__main__':
+    app.run()
+
+마지막으로 실행되는 모듈이 파이썬 인터프리터에 의해 메인 모듈로 실행됐는지 임포트되어 사용됐는지
+확인하여 메인 모듈로 실행됐으면 테스트 용도로 사용되는 로컬 서버인 run() 함수를 실행한다.
+
+라우팅
+
+플라스크는 복잡한 URI를 쉽게 함수로 연결하는 방법을 제공하는데, 바로 route() 데코레이터를 사용하면
+아주 쉽고 빠르게 원하는 URI를 처리하는 기능을 만들 수 있다. 위 예제에서 애플리케이션
+루트 ('/')로 접속하면 hello_flask 함수가 실행될 수 있게 hello_flask 함수와 매칭했는데,
+이번에는 /hello로 접속했을 때 hello 함수가 실행될 수 있게 URI와 함수명을 변경해 보겠다.
+
+@app.route('/hello')
+def hello_flask():
+    return 'Hello Flask!'
+
+먼저 route() 데코레이터를 적용한 부분을 보면, 플라스크 애플리케이션 객체인 app를 접두어로
+붙이고 괄호 안에 적용할 URI를 애플리케이션 루트에 대해 상대 경로로 적는다. 여기서는 '/'였던
+URI를 '/hello'로 변경했다.
+
+그리고 해당 URI을 요청했을 때 호출될 함수를 바로 아래 작성하면 된다. 여기에
+서는 hello_flask 함수명을 hello 로 변경해 '/hello'가 요청됐을 때 hello 
+함수가 호출되게 하겠다.
+
+@app.route('/hello')
+def hello():
+    return 'Hello Flask!'
+
+위 예제는 단순하고 간단한 URI 라우팅을 보여준 것이고, 동적으로 URI를 적용할 수도 있으며
+여러 URI를 한 함수에 적용할 수도 있다.
+
+URI에 동적인 변수를 사용하려면 원하는 위치에 '<변수>'와 같이 추가한다. 해당 변수는
+URI와 일치하는 뷰 함수의 인자로 사용할 수 있다.
+
+@app.route('/profile/<username>')
+def get_profile(username):
+    return 'profile : ' + username
+
+위 예에서 URI의 끝점 (endpoint)으로 추가된 username이 동적으로 변경되는 부분이고,
+username은 해당 URI와 일치하는 뷰 함수인 get_profile() 함수의 인자로
+들어가서 함수 내에서 사용된다.
+
+추가된 URI의 끝점을 '<변환타입:변수명>' 형태로 적어서 문자열이 아닌 다른 형태로 변환할 수도
+있다.
+
+@app.route('/message/<int:message_id>')
+def get_message(message_id):
+    return 'message_id : %d' + message_id
+
+
+message_id를 끝점으로 요청하는 URI로 함수에서 정수형인 message_id를 사용하기 위해
+정수형 으로 변환했다.
+
+int 이외에 다른 변환기 (converter)는 실수형으로 변환하는 float와 디폴트로
+문자열을 변환하지만, 마지막에 '/'를 포함하는 path가 있다.
+
+
+@app.route('/')
+def index():
+    return 'index'
+
+@app.route('/login')
+def login():
+    return 'login'
+
+@app.route('/user/<username>')
+def profile(username):
+    return '{}\'s profile'.format(username)
+
+with app.test_request_context():
+    print(url_for('index'))
+    print(url_for('login'))
+    print(url_for('login', next='/'))
+    print(url_for('profile', username='John Doe'))
+
+/
+/login
+/login?next=/
+/user/John%20Doe
+
+http://flask.pocoo.org/docs/1.0/quickstart/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
