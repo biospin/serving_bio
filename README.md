@@ -113,7 +113,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |(의료영상) 파이썬과 OpenCV : 5장. 딥러닝
 |  2 |2019.04.19|(인공지능기초) holoviews  User Guide  : Annotating your Data , Composing Elements,
 |    |          |                                    Applying Customizations, Styling Mapping
-|    |          |(분석모델서빙) Mastering kubernetes  : 5장. 쿠버네티스 보안, 제한, 계정 설정 
+|    |          |(분석모델서빙) [Mastering kubernetes  : 5장. 쿠버네티스 보안, 제한, 계정 설정](https://github.com/biospin/serving_bio/blob/master/part03/week02_190426/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4_5%EC%9E%A5_%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4%EB%B3%B4%EC%95%88.pdf) 
 |    |          |(의료영상) SimpleITK  :  300_Segmentation_Overview.ipynb,  30_Segmentation_Region_Growing,
 |    |          |                      31_Levelset_Segmentation.ipynb, 32_Watersheds_Segmentation.ipynb,
 |    |          |                      33_Segmentation_Thresholding_Edge_Detection.ipynb, 34_Segmentation_Evaluation.ipynb,
