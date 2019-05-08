@@ -120,7 +120,7 @@ https://drive.google.com/drive/u/1/folders/1ljOuD68dRDqZc_bl3qlkT9YlP0zuObNQ
 |    |          |                      35_Segmentation_Shape_Analysis.ipynb
 |  3 |2019.04.26|(인공지능기초) holoviews  User Guide  : Dimensioned Containers, Building Composite Objects,
 |    |          |                                    Live Data, Tabular Datasets, Gridded Datasets
-|    |          |(분석모델서빙) flask  : Modular Applications with Blueprints, Extensions, Command Line Interface
+|    |          |(분석모델서빙) [flask  : Modular Applications with Blueprints, Extensions, Command Line Interface](https://github.com/biospin/serving_bio/blob/master/part03/week03_190510/flask_tutorial.pdf)
 |    |          |(의료영상) 파이썬과 OpenCV : 6장. 선형 대수
 |  4 |2019.05.03|(인공지능기초) holoviews  User Guide  : Geometry Data, Indexing and Selecting Data,
 |    |          |                                   Transforming Elements, Responding to Events,
